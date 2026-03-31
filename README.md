@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/careb36/careb36/main/matrix-name.svg" alt="Carolina R. Pereira" />
+<img src="./matrix-name.svg" alt="Carolina R. Pereira" />
 
 ## Hi 👋
 
