@@ -10,7 +10,7 @@
 
 Licenciada en Tecnologías de la Información — [UTEC](https://utec.edu.uy/es/) 🇺🇾
 
-Máster Oficial en Inteligencia Artificial — [UNIR México/España](https://www.unir.net/) 🇲🇽🇪🇸
+Máster Oficial en Inteligencia Artificial — [UNIR México/España](https://mexico.unir.net/ingenieria/maestria-inteligencia-artificial/) 🇲🇽 🇪🇸
 
 <br/>
 
