@@ -1,83 +1,48 @@
-<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 60' width='480px' height='60px'>
-  <rect width='480' height='60' fill='#0d1117' rx='6'/>
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 60' width='500px' height='60px'>
+  <rect width='500' height='60' fill='#0d1117' rx='6'/>
   <defs>
-    <clipPath id='c'><rect width='480' height='60' rx='6'/></clipPath>
+    <clipPath id='rain'><rect width='500' height='60' rx='6'/></clipPath>
   </defs>
-  <g clip-path='url(#c)' fill='#00FF41' font-family='monospace' font-size='11' opacity='0.35'>
-    <!-- Col 1 -->
-    <text x='12' y='0'><animate attributeName='y' from='-60' to='66' dur='2.8s' repeatCount='indefinite'/>1</text>
-    <text x='12' y='-14'><animate attributeName='y' from='-74' to='52' dur='2.8s' repeatCount='indefinite'/>0</text>
-    <text x='12' y='-28'><animate attributeName='y' from='-88' to='38' dur='2.8s' repeatCount='indefinite'/>1</text>
-    <text x='12' y='-42'><animate attributeName='y' from='-102' to='24' dur='2.8s' repeatCount='indefinite'/>0</text>
-    <!-- Col 2 -->
-    <text x='32' y='-8'><animate attributeName='y' from='-68' to='58' dur='3.2s' repeatCount='indefinite'/>0</text>
-    <text x='32' y='-22'><animate attributeName='y' from='-82' to='44' dur='3.2s' repeatCount='indefinite'/>1</text>
-    <text x='32' y='-36'><animate attributeName='y' from='-96' to='30' dur='3.2s' repeatCount='indefinite'/>0</text>
-    <text x='32' y='-50'><animate attributeName='y' from='-110' to='16' dur='3.2s' repeatCount='indefinite'/>1</text>
-    <!-- Col 3 -->
-    <text x='52' y='-4'><animate attributeName='y' from='-64' to='62' dur='2.5s' repeatCount='indefinite'/>1</text>
-    <text x='52' y='-18'><animate attributeName='y' from='-78' to='48' dur='2.5s' repeatCount='indefinite'/>1</text>
-    <text x='52' y='-32'><animate attributeName='y' from='-92' to='34' dur='2.5s' repeatCount='indefinite'/>0</text>
-    <text x='52' y='-46'><animate attributeName='y' from='-106' to='20' dur='2.5s' repeatCount='indefinite'/>1</text>
-    <!-- Col 4 -->
-    <text x='72' y='-12'><animate attributeName='y' from='-72' to='54' dur='3.5s' repeatCount='indefinite'/>0</text>
-    <text x='72' y='-26'><animate attributeName='y' from='-86' to='40' dur='3.5s' repeatCount='indefinite'/>1</text>
-    <text x='72' y='-40'><animate attributeName='y' from='-100' to='26' dur='3.5s' repeatCount='indefinite'/>0</text>
-    <!-- Col 5 -->
-    <text x='92' y='-6'><animate attributeName='y' from='-66' to='60' dur='2.9s' repeatCount='indefinite'/>1</text>
-    <text x='92' y='-20'><animate attributeName='y' from='-80' to='46' dur='2.9s' repeatCount='indefinite'/>0</text>
-    <text x='92' y='-34'><animate attributeName='y' from='-94' to='32' dur='2.9s' repeatCount='indefinite'/>1</text>
-    <text x='92' y='-48'><animate attributeName='y' from='-108' to='18' dur='2.9s' repeatCount='indefinite'/>0</text>
-    <!-- Col 6 -->
-    <text x='112' y='-2'><animate attributeName='y' from='-62' to='64' dur='3.1s' repeatCount='indefinite'/>0</text>
-    <text x='112' y='-16'><animate attributeName='y' from='-76' to='50' dur='3.1s' repeatCount='indefinite'/>1</text>
-    <text x='112' y='-30'><animate attributeName='y' from='-90' to='36' dur='3.1s' repeatCount='indefinite'/>0</text>
-    <text x='112' y='-44'><animate attributeName='y' from='-104' to='22' dur='3.1s' repeatCount='indefinite'/>1</text>
-    <!-- Col 7 -->
-    <text x='132' y='-10'><animate attributeName='y' from='-70' to='56' dur='2.6s' repeatCount='indefinite'/>1</text>
-    <text x='132' y='-24'><animate attributeName='y' from='-84' to='42' dur='2.6s' repeatCount='indefinite'/>0</text>
-    <text x='132' y='-38'><animate attributeName='y' from='-98' to='28' dur='2.6s' repeatCount='indefinite'/>1</text>
-    <!-- Col 8 -->
-    <text x='152' y='-16'><animate attributeName='y' from='-76' to='50' dur='3.3s' repeatCount='indefinite'/>0</text>
-    <text x='152' y='-30'><animate attributeName='y' from='-90' to='36' dur='3.3s' repeatCount='indefinite'/>1</text>
-    <text x='152' y='-44'><animate attributeName='y' from='-104' to='22' dur='3.3s' repeatCount='indefinite'/>0</text>
+  <!-- Matrix rain -->
+  <g clip-path='url(#rain)' font-family='monospace' font-size='12'>
+    <!-- Column 1 -->
+    <text x='8' fill='#00FF41' opacity='0.6'>0<tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-70;74' dur='2.5s' repeatCount='indefinite'/></text>
+    <!-- Column 2 -->
+    <text x='22' fill='#00FF41' opacity='0.5'>1<tspan dy='14'>ﾘ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-60;84' dur='3.1s' repeatCount='indefinite'/></text>
+    <!-- Column 3 -->
+    <text x='36' fill='#00FF41' opacity='0.7'>ﾙ<tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾘ</tspan><animate attributeName='y' values='-80;64' dur='2.2s' repeatCount='indefinite'/></text>
+    <!-- Column 4 -->
+    <text x='50' fill='#00FF41' opacity='0.4'>0<tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-50;94' dur='3.5s' repeatCount='indefinite'/></text>
+    <!-- Column 5 -->
+    <text x='64' fill='#00FF41' opacity='0.6'>1<tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-90;54' dur='2.8s' repeatCount='indefinite'/></text>
+    <!-- Column 6 -->
+    <text x='78' fill='#00FF41' opacity='0.5'>ﾗ<tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-66;78' dur='3.3s' repeatCount='indefinite'/></text>
+    <!-- Column 7 -->
+    <text x='92' fill='#00FF41' opacity='0.7'>0<tspan dy='14'>ﾙ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-74;70' dur='2.6s' repeatCount='indefinite'/></text>
+    <!-- Column 8 -->
+    <text x='106' fill='#00FF41' opacity='0.4'>1<tspan dy='14'>0</tspan><tspan dy='14'>ﾘ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-56;88' dur='3.0s' repeatCount='indefinite'/></text>
+    <!-- Column 9 -->
+    <text x='120' fill='#00FF41' opacity='0.6'>0<tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><animate attributeName='y' values='-84;60' dur='2.4s' repeatCount='indefinite'/></text>
+    <!-- Column 10 -->
+    <text x='134' fill='#00FF41' opacity='0.5'>ﾙ<tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-62;82' dur='3.4s' repeatCount='indefinite'/></text>
+    <!-- Column 11 -->
+    <text x='148' fill='#00FF41' opacity='0.7'>1<tspan dy='14'>ﾗ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-78;66' dur='2.3s' repeatCount='indefinite'/></text>
+    <!-- Column 12 -->
+    <text x='162' fill='#00FF41' opacity='0.4'>0<tspan dy='14'>1</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-54;90' dur='3.6s' repeatCount='indefinite'/></text>
     <!-- Right side columns -->
-    <text x='332' y='-5'><animate attributeName='y' from='-65' to='61' dur='2.7s' repeatCount='indefinite'/>1</text>
-    <text x='332' y='-19'><animate attributeName='y' from='-79' to='47' dur='2.7s' repeatCount='indefinite'/>0</text>
-    <text x='332' y='-33'><animate attributeName='y' from='-93' to='33' dur='2.7s' repeatCount='indefinite'/>1</text>
-    <text x='332' y='-47'><animate attributeName='y' from='-107' to='19' dur='2.7s' repeatCount='indefinite'/>0</text>
-    <!-- Col 10 -->
-    <text x='352' y='-9'><animate attributeName='y' from='-69' to='57' dur='3.0s' repeatCount='indefinite'/>0</text>
-    <text x='352' y='-23'><animate attributeName='y' from='-83' to='43' dur='3.0s' repeatCount='indefinite'/>1</text>
-    <text x='352' y='-37'><animate attributeName='y' from='-97' to='29' dur='3.0s' repeatCount='indefinite'/>0</text>
-    <!-- Col 11 -->
-    <text x='372' y='-3'><animate attributeName='y' from='-63' to='63' dur='2.4s' repeatCount='indefinite'/>1</text>
-    <text x='372' y='-17'><animate attributeName='y' from='-77' to='49' dur='2.4s' repeatCount='indefinite'/>1</text>
-    <text x='372' y='-31'><animate attributeName='y' from='-91' to='35' dur='2.4s' repeatCount='indefinite'/>0</text>
-    <text x='372' y='-45'><animate attributeName='y' from='-105' to='21' dur='2.4s' repeatCount='indefinite'/>1</text>
-    <!-- Col 12 -->
-    <text x='392' y='-13'><animate attributeName='y' from='-73' to='53' dur='3.4s' repeatCount='indefinite'/>0</text>
-    <text x='392' y='-27'><animate attributeName='y' from='-87' to='39' dur='3.4s' repeatCount='indefinite'/>1</text>
-    <text x='392' y='-41'><animate attributeName='y' from='-101' to='25' dur='3.4s' repeatCount='indefinite'/>0</text>
-    <!-- Col 13 -->
-    <text x='412' y='-7'><animate attributeName='y' from='-67' to='59' dur='2.8s' repeatCount='indefinite'/>1</text>
-    <text x='412' y='-21'><animate attributeName='y' from='-81' to='45' dur='2.8s' repeatCount='indefinite'/>0</text>
-    <text x='412' y='-35'><animate attributeName='y' from='-95' to='31' dur='2.8s' repeatCount='indefinite'/>1</text>
-    <text x='412' y='-49'><animate attributeName='y' from='-109' to='17' dur='2.8s' repeatCount='indefinite'/>0</text>
-    <!-- Col 14 -->
-    <text x='432' y='-11'><animate attributeName='y' from='-71' to='55' dur='3.1s' repeatCount='indefinite'/>0</text>
-    <text x='432' y='-25'><animate attributeName='y' from='-85' to='41' dur='3.1s' repeatCount='indefinite'/>1</text>
-    <text x='432' y='-39'><animate attributeName='y' from='-99' to='27' dur='3.1s' repeatCount='indefinite'/>0</text>
-    <!-- Col 15 -->
-    <text x='452' y='-1'><animate attributeName='y' from='-61' to='65' dur='2.6s' repeatCount='indefinite'/>1</text>
-    <text x='452' y='-15'><animate attributeName='y' from='-75' to='51' dur='2.6s' repeatCount='indefinite'/>0</text>
-    <text x='452' y='-29'><animate attributeName='y' from='-89' to='37' dur='2.6s' repeatCount='indefinite'/>1</text>
-    <text x='452' y='-43'><animate attributeName='y' from='-103' to='23' dur='2.6s' repeatCount='indefinite'/>0</text>
-    <!-- Col 16 -->
-    <text x='472' y='-14'><animate attributeName='y' from='-74' to='52' dur='3.6s' repeatCount='indefinite'/>0</text>
-    <text x='472' y='-28'><animate attributeName='y' from='-88' to='38' dur='3.6s' repeatCount='indefinite'/>1</text>
-    <text x='472' y='-42'><animate attributeName='y' from='-102' to='24' dur='3.6s' repeatCount='indefinite'/>0</text>
+    <text x='338' fill='#00FF41' opacity='0.6'>1<tspan dy='14'>0</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-68;76' dur='2.7s' repeatCount='indefinite'/></text>
+    <text x='352' fill='#00FF41' opacity='0.5'>0<tspan dy='14'>ﾙ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-82;62' dur='3.2s' repeatCount='indefinite'/></text>
+    <text x='366' fill='#00FF41' opacity='0.7'>ﾘ<tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-58;86' dur='2.1s' repeatCount='indefinite'/></text>
+    <text x='380' fill='#00FF41' opacity='0.4'>1<tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-72;72' dur='3.7s' repeatCount='indefinite'/></text>
+    <text x='394' fill='#00FF41' opacity='0.6'>0<tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-64;80' dur='2.9s' repeatCount='indefinite'/></text>
+    <text x='408' fill='#00FF41' opacity='0.5'>ﾗ<tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾘ</tspan><animate attributeName='y' values='-86;58' dur='3.3s' repeatCount='indefinite'/></text>
+    <text x='422' fill='#00FF41' opacity='0.7'>1<tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-52;92' dur='2.5s' repeatCount='indefinite'/></text>
+    <text x='436' fill='#00FF41' opacity='0.4'>0<tspan dy='14'>ﾗ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-76;68' dur='3.5s' repeatCount='indefinite'/></text>
+    <text x='450' fill='#00FF41' opacity='0.6'>1<tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾙ</tspan><animate attributeName='y' values='-60;84' dur='2.8s' repeatCount='indefinite'/></text>
+    <text x='464' fill='#00FF41' opacity='0.5'>ﾙ<tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾘ</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-70;74' dur='3.1s' repeatCount='indefinite'/></text>
+    <text x='478' fill='#00FF41' opacity='0.7'>0<tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-88;56' dur='2.4s' repeatCount='indefinite'/></text>
+    <text x='492' fill='#00FF41' opacity='0.4'>1<tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-54;90' dur='3.8s' repeatCount='indefinite'/></text>
   </g>
   <!-- Name in original color -->
-  <text font-family='monospace' fill='#C9D1D9' font-size='28' font-weight='600' x='240' y='35' text-anchor='middle' dominant-baseline='middle'>Carolina R. Pereira</text>
+  <text font-family='monospace' fill='#C9D1D9' font-size='28' font-weight='600' x='250' y='36' text-anchor='middle' dominant-baseline='middle'>Carolina R. Pereira</text>
 </svg>
