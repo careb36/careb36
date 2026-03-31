@@ -1,68 +1,65 @@
-<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 120' width='500px' height='120px'>
-  <rect width='500' height='120' fill='#0d1117' rx='6'/>
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 120' width='1000px' height='120px'>
+  <rect width='1000' height='120' fill='#0d1117' rx='6'/>
   <defs>
-    <clipPath id='rain'><rect width='500' height='120' rx='6'/></clipPath>
+    <clipPath id='rain'><rect width='1000' height='120' rx='6'/></clipPath>
     <clipPath id='reveal'>
       <rect x='0' y='0' width='0' height='120'>
-        <animate attributeName='width' values='0;0;380;380;380;0;0' keyTimes='0;0.05;0.4;0.6;0.7;0.95;1' dur='6s' repeatCount='indefinite'/>
+        <animate attributeName='width' values='0;0;280;280;280;0;0' keyTimes='0;0.05;0.4;0.6;0.7;0.95;1' dur='6s' repeatCount='indefinite'/>
       </rect>
     </clipPath>
   </defs>
   <!-- Matrix rain -->
   <g clip-path='url(#rain)' font-family='monospace' font-size='12'>
-    <!-- Col 1 -->
-    <text x='8' fill='#00FF41' opacity='0.6'>0<tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-126;130' dur='2.5s' repeatCount='indefinite'/></text>
-    <!-- Col 2 -->
-    <text x='22' fill='#00FF41' opacity='0.5'>1<tspan dy='14'>ﾘ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-112;144' dur='3.1s' repeatCount='indefinite'/></text>
-    <!-- Col 3 -->
-    <text x='36' fill='#00FF41' opacity='0.7'>ﾙ<tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾘ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-140;116' dur='2.2s' repeatCount='indefinite'/></text>
-    <!-- Col 4 -->
-    <text x='50' fill='#00FF41' opacity='0.4'>0<tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-98;158' dur='3.5s' repeatCount='indefinite'/></text>
-    <!-- Col 5 -->
-    <text x='64' fill='#00FF41' opacity='0.6'>1<tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-150;106' dur='2.8s' repeatCount='indefinite'/></text>
-    <!-- Col 6 -->
-    <text x='78' fill='#00FF41' opacity='0.5'>ﾗ<tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾘ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-118;138' dur='3.3s' repeatCount='indefinite'/></text>
-    <!-- Col 7 -->
-    <text x='92' fill='#00FF41' opacity='0.7'>0<tspan dy='14'>ﾙ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-130;126' dur='2.6s' repeatCount='indefinite'/></text>
-    <!-- Col 8 -->
-    <text x='106' fill='#00FF41' opacity='0.4'>1<tspan dy='14'>0</tspan><tspan dy='14'>ﾘ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-106;150' dur='3.0s' repeatCount='indefinite'/></text>
-    <!-- Col 9 -->
-    <text x='120' fill='#00FF41' opacity='0.6'>0<tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><animate attributeName='y' values='-144;112' dur='2.4s' repeatCount='indefinite'/></text>
-    <!-- Col 10 -->
-    <text x='134' fill='#00FF41' opacity='0.5'>ﾙ<tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-114;142' dur='3.4s' repeatCount='indefinite'/></text>
-    <!-- Col 11 -->
-    <text x='148' fill='#00FF41' opacity='0.7'>1<tspan dy='14'>ﾗ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-134;122' dur='2.3s' repeatCount='indefinite'/></text>
-    <!-- Col 12 -->
-    <text x='162' fill='#00FF41' opacity='0.4'>0<tspan dy='14'>1</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-102;154' dur='3.6s' repeatCount='indefinite'/></text>
-    <!-- Col 13 -->
-    <text x='176' fill='#00FF41' opacity='0.6'>ﾗ<tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾘ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-128;128' dur='2.9s' repeatCount='indefinite'/></text>
-    <!-- Col 14 -->
-    <text x='190' fill='#00FF41' opacity='0.5'>1<tspan dy='14'>ﾙ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-110;146' dur='3.2s' repeatCount='indefinite'/></text>
-    <!-- Col 15 -->
-    <text x='204' fill='#00FF41' opacity='0.7'>0<tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-146;110' dur='2.1s' repeatCount='indefinite'/></text>
-    <!-- Right side -->
-    <text x='298' fill='#00FF41' opacity='0.6'>1<tspan dy='14'>0</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-122;134' dur='2.7s' repeatCount='indefinite'/></text>
-    <text x='312' fill='#00FF41' opacity='0.5'>0<tspan dy='14'>ﾙ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-136;120' dur='3.2s' repeatCount='indefinite'/></text>
-    <text x='326' fill='#00FF41' opacity='0.7'>ﾘ<tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-108;148' dur='2.1s' repeatCount='indefinite'/></text>
-    <text x='340' fill='#00FF41' opacity='0.4'>1<tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-126;130' dur='3.7s' repeatCount='indefinite'/></text>
-    <text x='354' fill='#00FF41' opacity='0.6'>0<tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-116;140' dur='2.9s' repeatCount='indefinite'/></text>
-    <text x='368' fill='#00FF41' opacity='0.5'>ﾗ<tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾘ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-142;114' dur='3.3s' repeatCount='indefinite'/></text>
-    <text x='382' fill='#00FF41' opacity='0.7'>1<tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-102;154' dur='2.5s' repeatCount='indefinite'/></text>
-    <text x='396' fill='#00FF41' opacity='0.4'>0<tspan dy='14'>ﾗ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-130;126' dur='3.5s' repeatCount='indefinite'/></text>
-    <text x='410' fill='#00FF41' opacity='0.6'>1<tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><animate attributeName='y' values='-114;142' dur='2.8s' repeatCount='indefinite'/></text>
-    <text x='424' fill='#00FF41' opacity='0.5'>ﾙ<tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾘ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-124;132' dur='3.1s' repeatCount='indefinite'/></text>
-    <text x='438' fill='#00FF41' opacity='0.7'>0<tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-140;116' dur='2.4s' repeatCount='indefinite'/></text>
-    <text x='452' fill='#00FF41' opacity='0.4'>1<tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-106;150' dur='3.8s' repeatCount='indefinite'/></text>
-    <text x='466' fill='#00FF41' opacity='0.6'>ﾗ<tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-134;122' dur='2.6s' repeatCount='indefinite'/></text>
-    <text x='480' fill='#00FF41' opacity='0.5'>0<tspan dy='14'>ﾙ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-118;138' dur='3.0s' repeatCount='indefinite'/></text>
-    <text x='494' fill='#00FF41' opacity='0.7'>1<tspan dy='14'>0</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-148;108' dur='2.3s' repeatCount='indefinite'/></text>
+    <!-- Left third -->
+    <text x='8' fill='#00FF41' opacity='0.6'>0<tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><animate attributeName='y' values='-112;130' dur='2.5s' repeatCount='indefinite'/></text>
+    <text x='22' fill='#00FF41' opacity='0.5'>1<tspan dy='14'>ﾘ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-98;144' dur='3.1s' repeatCount='indefinite'/></text>
+    <text x='36' fill='#00FF41' opacity='0.7'>ﾙ<tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾘ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-126;116' dur='2.2s' repeatCount='indefinite'/></text>
+    <text x='50' fill='#00FF41' opacity='0.4'>0<tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾙ</tspan><animate attributeName='y' values='-84;158' dur='3.5s' repeatCount='indefinite'/></text>
+    <text x='64' fill='#00FF41' opacity='0.6'>1<tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><animate attributeName='y' values='-136;106' dur='2.8s' repeatCount='indefinite'/></text>
+    <text x='78' fill='#00FF41' opacity='0.5'>ﾗ<tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾘ</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-104;138' dur='3.3s' repeatCount='indefinite'/></text>
+    <text x='92' fill='#00FF41' opacity='0.7'>0<tspan dy='14'>ﾙ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾗ</tspan><animate attributeName='y' values='-116;126' dur='2.6s' repeatCount='indefinite'/></text>
+    <text x='106' fill='#00FF41' opacity='0.4'>1<tspan dy='14'>0</tspan><tspan dy='14'>ﾘ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><animate attributeName='y' values='-92;150' dur='3.0s' repeatCount='indefinite'/></text>
+    <text x='120' fill='#00FF41' opacity='0.6'>0<tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-130;112' dur='2.4s' repeatCount='indefinite'/></text>
+    <text x='134' fill='#00FF41' opacity='0.5'>ﾙ<tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-100;142' dur='3.4s' repeatCount='indefinite'/></text>
+    <text x='148' fill='#00FF41' opacity='0.7'>1<tspan dy='14'>ﾗ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><animate attributeName='y' values='-120;122' dur='2.3s' repeatCount='indefinite'/></text>
+    <text x='162' fill='#00FF41' opacity='0.4'>0<tspan dy='14'>1</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><animate attributeName='y' values='-88;154' dur='3.6s' repeatCount='indefinite'/></text>
+    <text x='176' fill='#00FF41' opacity='0.6'>ﾗ<tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾘ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-114;128' dur='2.9s' repeatCount='indefinite'/></text>
+    <text x='190' fill='#00FF41' opacity='0.5'>1<tspan dy='14'>ﾙ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><animate attributeName='y' values='-96;146' dur='3.2s' repeatCount='indefinite'/></text>
+    <text x='204' fill='#00FF41' opacity='0.7'>0<tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-132;110' dur='2.1s' repeatCount='indefinite'/></text>
+    <text x='218' fill='#00FF41' opacity='0.4'>1<tspan dy='14'>0</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-82;160' dur='3.7s' repeatCount='indefinite'/></text>
+    <text x='232' fill='#00FF41' opacity='0.6'>ﾘ<tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-108;134' dur='2.7s' repeatCount='indefinite'/></text>
+    <text x='246' fill='#00FF41' opacity='0.5'>0<tspan dy='14'>ﾗ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾙ</tspan><animate attributeName='y' values='-140;102' dur='3.0s' repeatCount='indefinite'/></text>
+    <text x='260' fill='#00FF41' opacity='0.7'>1<tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-94;148' dur='2.5s' repeatCount='indefinite'/></text>
+    <text x='274' fill='#00FF41' opacity='0.4'>ﾗ<tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾘ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-124;118' dur='3.4s' repeatCount='indefinite'/></text>
+    <text x='288' fill='#00FF41' opacity='0.6'>0<tspan dy='14'>ﾙ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾗ</tspan><animate attributeName='y' values='-102;140' dur='2.8s' repeatCount='indefinite'/></text>
+    <!-- Right third -->
+    <text x='718' fill='#00FF41' opacity='0.6'>1<tspan dy='14'>0</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><animate attributeName='y' values='-108;134' dur='2.7s' repeatCount='indefinite'/></text>
+    <text x='732' fill='#00FF41' opacity='0.5'>0<tspan dy='14'>ﾙ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-122;120' dur='3.2s' repeatCount='indefinite'/></text>
+    <text x='746' fill='#00FF41' opacity='0.7'>ﾘ<tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-94;148' dur='2.1s' repeatCount='indefinite'/></text>
+    <text x='760' fill='#00FF41' opacity='0.4'>1<tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><animate attributeName='y' values='-112;130' dur='3.7s' repeatCount='indefinite'/></text>
+    <text x='774' fill='#00FF41' opacity='0.6'>0<tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-102;140' dur='2.9s' repeatCount='indefinite'/></text>
+    <text x='788' fill='#00FF41' opacity='0.5'>ﾗ<tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾘ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-128;114' dur='3.3s' repeatCount='indefinite'/></text>
+    <text x='802' fill='#00FF41' opacity='0.7'>1<tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><animate attributeName='y' values='-88;154' dur='2.5s' repeatCount='indefinite'/></text>
+    <text x='816' fill='#00FF41' opacity='0.4'>0<tspan dy='14'>ﾗ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-116;126' dur='3.5s' repeatCount='indefinite'/></text>
+    <text x='830' fill='#00FF41' opacity='0.6'>1<tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-100;142' dur='2.8s' repeatCount='indefinite'/></text>
+    <text x='844' fill='#00FF41' opacity='0.5'>ﾙ<tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾘ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-110;132' dur='3.1s' repeatCount='indefinite'/></text>
+    <text x='858' fill='#00FF41' opacity='0.7'>0<tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><animate attributeName='y' values='-126;116' dur='2.4s' repeatCount='indefinite'/></text>
+    <text x='872' fill='#00FF41' opacity='0.4'>1<tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-92;150' dur='3.8s' repeatCount='indefinite'/></text>
+    <text x='886' fill='#00FF41' opacity='0.6'>ﾗ<tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-120;122' dur='2.6s' repeatCount='indefinite'/></text>
+    <text x='900' fill='#00FF41' opacity='0.5'>0<tspan dy='14'>ﾙ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-104;138' dur='3.0s' repeatCount='indefinite'/></text>
+    <text x='914' fill='#00FF41' opacity='0.7'>1<tspan dy='14'>0</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-134;108' dur='2.3s' repeatCount='indefinite'/></text>
+    <text x='928' fill='#00FF41' opacity='0.4'>0<tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾘ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-86;156' dur='3.6s' repeatCount='indefinite'/></text>
+    <text x='942' fill='#00FF41' opacity='0.6'>ﾗ<tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-118;124' dur='2.9s' repeatCount='indefinite'/></text>
+    <text x='956' fill='#00FF41' opacity='0.5'>1<tspan dy='14'>ﾗ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><animate attributeName='y' values='-98;144' dur='3.3s' repeatCount='indefinite'/></text>
+    <text x='970' fill='#00FF41' opacity='0.7'>0<tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><animate attributeName='y' values='-130;112' dur='2.2s' repeatCount='indefinite'/></text>
+    <text x='984' fill='#00FF41' opacity='0.4'>1<tspan dy='14'>0</tspan><tspan dy='14'>ﾗ</tspan><tspan dy='14'>0</tspan><tspan dy='14'>1</tspan><tspan dy='14'>ﾙ</tspan><tspan dy='14'>0</tspan><animate attributeName='y' values='-90;152' dur='3.5s' repeatCount='indefinite'/></text>
   </g>
   <!-- Name with typing effect -->
   <g clip-path='url(#reveal)'>
-    <text font-family='monospace' fill='#C9D1D9' font-size='32' font-weight='600' x='250' y='65' text-anchor='middle' dominant-baseline='middle'>Carolina R. Pereira</text>
+    <text font-family='monospace' fill='#C9D1D9' font-size='32' font-weight='600' x='500' y='65' text-anchor='middle' dominant-baseline='middle'>Caro R. Pereira</text>
     <!-- Cursor -->
     <rect fill='#C9D1D9' width='2.5' height='30' y='50'>
-      <animate attributeName='x' values='70;295;295;295;70;70' keyTimes='0;0.35;0.6;0.7;0.9;1' dur='6s' repeatCount='indefinite'/>
+      <animate attributeName='x' values='385;495;495;495;385;385' keyTimes='0;0.35;0.6;0.7;0.9;1' dur='6s' repeatCount='indefinite'/>
       <animate attributeName='opacity' values='1;1;1;0;0;1' keyTimes='0;0.35;0.6;0.65;0.95;1' dur='6s' repeatCount='indefinite'/>
     </rect>
   </g>

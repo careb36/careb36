@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="./matrix-name.svg" alt="Carolina R. Pereira" />
+<img src="./matrix-name.svg" alt="Caro R. Pereira" />
 
 ## Hi 👋
 
