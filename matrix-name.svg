@@ -1,0 +1,27 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 50' width='480px' height='50px'>
+  <rect width='480' height='50' fill='#0d1117' rx='6'/>
+  <!-- Matrix scramble -->
+  <text font-family="monospace" fill='#00FF41' font-size='28' font-weight='600' x='240' y='30' text-anchor='middle' dominant-baseline='middle'>
+    <tspan>╬ù╫╠╩╦╬▌▐░▒▓█╬╠╩╦╫╬▌</tspan>
+    <animate attributeName='opacity' values='1;1;0' keyTimes='0;0.65;0.7' dur='4s' repeatCount='indefinite'/>
+  </text>
+  <!-- Partial reveal -->
+  <text font-family="monospace" fill='#00FF41' font-size='28' font-weight='600' x='240' y='30' text-anchor='middle' dominant-baseline='middle'>
+    <tspan>C▓▓o▒▓i▓n▓▓R▓.▓P▓r▓a</tspan>
+    <animate attributeName='opacity' values='0;0;1;1;0' keyTimes='0;0.65;0.7;0.88;0.93' dur='4s' repeatCount='indefinite'/>
+  </text>
+  <!-- Final text -->
+  <text font-family="monospace" fill='#00FF41' font-size='28' font-weight='600' x='240' y='30' text-anchor='middle' dominant-baseline='middle'>
+    <tspan>Carolina R. Pereira</tspan>
+    <animate attributeName='opacity' values='0;0;1;1' keyTimes='0;0.93;0.96;1' dur='4s' repeatCount='indefinite'/>
+  </text>
+  <!-- Cursor blink -->
+  <rect x='390' y='15' width='2.5' height='25' fill='#00FF41'>
+    <animate attributeName='opacity' values='1;0;1' dur='0.7s' repeatCount='indefinite'/>
+  </rect>
+  <!-- Subtle glow -->
+  <text font-family="monospace" fill='#00FF41' fill-opacity='0.12' font-size='28' font-weight='600' x='241' y='31' text-anchor='middle' dominant-baseline='middle'>
+    <tspan>Carolina R. Pereira</tspan>
+    <animate attributeName='opacity' values='0;0;0.12' keyTimes='0;0.96;1' dur='4s' repeatCount='indefinite'/>
+  </text>
+</svg>
