@@ -1,12 +1,15 @@
-📄 Leer en: [English](./README.md) | **Español**
+[🇺🇸](./README.md) | 🇪🇸
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=C9D1D9&center=true&vCenter=true&width=500&lines=Carolina+R.+Pereira;AxiomAI" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=C9D1D9&center=true&vCenter=true&width=500&lines=Carolina+R.+Pereira" alt="Typing SVG" />
+
+## Hola 👋
 
 **PM & Developer · Docente de Programación en [UTEC Uruguay](https://utec.edu.uy/es/) · Co-fundadora de [Axiom](https://axiom.co/)**
 
 Licenciada en Tecnologías de la Información — [UTEC](https://utec.edu.uy/es/) 🇺🇾
+
 Máster Oficial en Inteligencia Artificial — [UNIR México/España](https://www.unir.net/) 🇲🇽🇪🇸
 
 <br/>
@@ -22,20 +25,7 @@ Máster Oficial en Inteligencia Artificial — [UNIR México/España](https://ww
 
 ---
 
-## Hola, soy Carolina 👋
-
-De Montevideo al mundo — construyo software que resuelve problemas reales y enseño a otros a hacer lo mismo. Estoy en la intersección de la **ingeniería de producción**, la **investigación académica en AI** y la **educación**. Tres roles, una misión: hacer la tecnología más accesible, más inteligente y más humana.
-
-- 🏦 PM & Developer construyendo soluciones bancarias enterprise con Java, Spring Boot, React y prácticas modernas de DevOps
-- 🎓 Docente de programación en [UTEC Uruguay](https://utec.edu.uy/es/), la universidad pública tecnológica de Uruguay — formando a la próxima generación de desarrolladores en Latinoamérica
-- 🤖 Co-fundadora de [Axiom](https://axiom.co/), la plataforma de observabilidad para equipos de ingeniería a gran escala — logs, traces, métricas y eventos en una sola plataforma
-- 📚 Máster Oficial en Inteligencia Artificial en [UNIR México/España](https://www.unir.net/)
-- 💬 Pregúntame sobre Java, Spring Boot, React, Next.js y arquitectura enterprise
-- ⚡ Dato curioso: programo, enseño, investigo — y aún así encuentro tiempo para impulsar el AI
-
----
-
-## 🛠️ Lenguajes y Herramientas
+## Lenguajes y Herramientas
 
 <div align="center">
 
@@ -56,7 +46,7 @@ De Montevideo al mundo — construyo software que resuelve problemas reales y en
 
 ---
 
-## 📊 Estadísticas de GitHub
+## Estadísticas de GitHub
 
 <div align="center">
 
@@ -69,44 +59,11 @@ De Montevideo al mundo — construyo software que resuelve problemas reales y en
 
 </div>
 
----
-
-## ✍️ Publicaciones
-
-Escribo sobre AI, arquitectura de software y la intersección entre tecnología y educación. Sin relleno — solo ideas prácticas de alguien que escribe código, lo enseña e investiga.
-
-📄 **[Medium — @carolina.r.pereira](https://medium.com/@carolina.r.pereira)**
-
----
-
-## 🎓 Educación
-
-| Título | Institución | Estado |
-|---|---|---|
-| Licenciatura en Tecnologías de la Información | [UTEC](https://utec.edu.uy/es/) 🇺🇾 | Completado |
-| Máster Oficial en Inteligencia Artificial | [UNIR México/España](https://www.unir.net/) 🇲🇽🇪🇸 | En curso |
-
----
-
-## 📫 Contacto
-
-| Plataforma | Link |
-|---|---|
-| LinkedIn | [carolinarpereira](https://www.linkedin.com/in/carolinarpereira/) |
-| YouTube | [@CarolinaRPereira](https://www.youtube.com/@CarolinaRPereira) |
-| Medium | [@carolina.r.pereira](https://medium.com/@carolina.r.pereira) |
-| Axiom | [axiom.co](https://axiom.co/) |
-
----
 
 <div align="center">
 
 *Del aula a producción. De la investigación a la realidad.*
 <br/>
 *No solo escribimos código. Lo enseñamos, lo enviamos, lo avanzamos.*
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/Carolina_R._Pereira-UTEC_%C2%B7_UNIR_%C2%B7_Axiom-7C3AED?style=for-the-badge" />
-
+<br/>
 </div>
