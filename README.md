@@ -11,6 +11,7 @@
 Licenciada en Tecnologías de la Información — [UTEC](https://utec.edu.uy/es/) 🇺🇾
 
 Máster Oficial en Inteligencia Artificial RVOE Nº 20200729 — [UNIR México/España](https://mexico.unir.net/ingenieria/maestria-inteligencia-artificial/) 🇲🇽 🇪🇸
+
 Máster Oficial en Ciberseguridad RVOE Nº 20232524 — [UNIR México/España](https://mexico.unir.net/ingenieria/maestria-seguridad-informatica/) 🇲🇽 🇪🇸
 
 <br/>
