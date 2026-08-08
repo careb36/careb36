@@ -6,7 +6,7 @@
 
 ## Hi 👋
 
-**PM & Developer · Programming Educator at [UTEC Uruguay](https://utec.edu.uy/es/) · Co-founder at [Axiom](https://axiom.co/)**
+**PM & Developer · ex Programming Educator at [UTEC Uruguay](https://utec.edu.uy/es/) · Co-founder at [Axiom](https://axiom.co/)**
 
 Licenciada en Tecnologías de la Información — [UTEC](https://utec.edu.uy/es/) 🇺🇾
 
