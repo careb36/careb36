@@ -6,7 +6,7 @@
 
 ## Hola 👋
 
-**PM & Developer · Docente de Programación en [UTEC Uruguay](https://utec.edu.uy/es/) · Co-fundadora de [Axiom](https://axiom.co/)**
+**PM & Developer · ex Docente de Programación en [UTEC Uruguay](https://utec.edu.uy/es/) · Co-fundadora de [Axiom](https://axiom.co/)**
 
 Licenciada en Tecnologías de la Información — [UTEC](https://utec.edu.uy/es/) 🇺🇾
 
