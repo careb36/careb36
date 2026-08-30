@@ -1,0 +1,7 @@
+# Google Colab ya incluye estas librerías; versiones mínimas de referencia
+tensorflow>=2.15
+tensorflow-datasets>=4.9
+scikit-learn>=1.3
+matplotlib>=3.7
+pandas>=2.0
+numpy>=1.24
