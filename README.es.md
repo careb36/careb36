@@ -17,7 +17,7 @@ Co-fundadora de [Axiom](https://axiom.co/) · Ex Docente de Programación en [UT
 <a href="https://medium.com/@carolina.r.pereira"><img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
 <a href="https://axiom.co/"><img src="https://img.shields.io/badge/Axiom-7C3AED?style=for-the-badge&logoColor=white" alt="Axiom" /></a>
 
-<img src="https://komarev.com/ghpvc/?username=careb36&label=Vistas+al+Perfil&color=7C3AED&style=flat" alt="Vistas al perfil" />
+<img src="https://hits.sh/github.com/careb36.svg?label=Vistas%20al%20Perfil&color=7C3AED&style=flat" alt="Vistas al perfil" />
 
 </div>
 
