@@ -4,8 +4,6 @@
 
 <img src="./matrix-name.svg" alt="Caro R. Pereira" />
 
-# Carolina R. Pereira
-
 **Product Manager & Software Developer**
 
 Co-founder at [Axiom](https://axiom.co/) · Former Programming Instructor at [UTEC Uruguay](https://utec.edu.uy/es/)
