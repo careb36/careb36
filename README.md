@@ -24,7 +24,7 @@ Co-founder at [Axiom](https://axiom.co/) · Former Programming Instructor at [UT
 ## About Me
 
 - 🚀 **Building** products end to end: from discovery and roadmap to shipped, production-grade code.
-- 🧠 **Specialized** in Artificial Intelligence and Cybersecurity, backed by two official master's degrees.
+- 🧠 **Specialized** in Artificial Intelligence and Cybersecurity.
 - 🎓 **Taught** programming at university level, turning complex concepts into skills people actually use.
 - ✍️ **Sharing** what I learn on [Medium](https://medium.com/@carolina.r.pereira) and [YouTube](https://www.youtube.com/@CarolinaRPereira).
 
@@ -34,8 +34,8 @@ Co-founder at [Axiom](https://axiom.co/) · Former Programming Instructor at [UT
 
 | Degree | Institution | |
 |---|---|---|
-| **Master's in Artificial Intelligence** (Official, RVOE Nº 20200729) | [UNIR](https://mexico.unir.net/ingenieria/maestria-inteligencia-artificial/) | 🇲🇽 🇪🇸 |
-| **Master's in Cybersecurity** (Official, RVOE Nº 20232524) | [UNIR](https://mexico.unir.net/ingenieria/maestria-seguridad-informatica/) | 🇲🇽 🇪🇸 |
+| **Master's in Artificial Intelligence** (Official, RVOE Nº 20200729). Expected Graduation: [2027] | [UNIR](https://mexico.unir.net/ingenieria/maestria-inteligencia-artificial/) | 🇲🇽 🇪🇸 |
+| **Master's in Cybersecurity** (Official, RVOE Nº 20232524) Expected. Graduation: [2027] | [UNIR](https://mexico.unir.net/ingenieria/maestria-seguridad-informatica/) | 🇲🇽 🇪🇸 |
 | **Bachelor's in Information Technology** | [UTEC](https://utec.edu.uy/es/) | 🇺🇾 |
 
 ---
