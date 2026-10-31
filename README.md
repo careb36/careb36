@@ -34,8 +34,8 @@ Co-founder at [Axiom](https://axiom.co/) · Former Programming Instructor at [UT
 
 | Degree | Institution | |
 |---|---|---|
-| **Master's in Artificial Intelligence** (Official, RVOE Nº 20200729). Expected Graduation: [2027] | [UNIR](https://mexico.unir.net/ingenieria/maestria-inteligencia-artificial/) | 🇲🇽 🇪🇸 |
-| **Master's in Cybersecurity** (Official, RVOE Nº 20232524) Expected. Graduation: [2027] | [UNIR](https://mexico.unir.net/ingenieria/maestria-seguridad-informatica/) | 🇲🇽 🇪🇸 |
+| **Master's in Artificial Intelligence** (Official, RVOE Nº 20200729). Expected Graduation 2027. | [UNIR](https://mexico.unir.net/ingenieria/maestria-inteligencia-artificial/) | 🇲🇽 🇪🇸 |
+| **Master's in Cybersecurity** (Official, RVOE Nº 20232524). Expected Graduation: 2027. | [UNIR](https://mexico.unir.net/ingenieria/maestria-seguridad-informatica/) | 🇲🇽 🇪🇸 |
 | **Bachelor's in Information Technology** | [UTEC](https://utec.edu.uy/es/) | 🇺🇾 |
 
 ---
